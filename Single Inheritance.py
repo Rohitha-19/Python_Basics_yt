@@ -14,3 +14,8 @@ ram.phone()
 
 # Calling Child Class Method
 ram.laptop()
+
+OUTPUT:
+
+Dad's Phone
+Son's Laptop
