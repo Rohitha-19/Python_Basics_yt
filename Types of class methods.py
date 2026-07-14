@@ -1,51 +1,51 @@
 class Laptop:
-    **# Class Variable**
+    # Class Variable
     charger_type = "C TYPE"
 
-    **# Constructor**
+    # Constructor
     def __init__(self):
         # Instance Variables
         self.brand = ""
         self.price = 0
 
-    **# Instance Method**
+    # Instance Method
     def setPrice(self, price):
         self.price = price
 
-    **# Instance Method**
+    # Instance Method
     def getPrice(self):
         print("Price:", self.price)
 
-    **# Class Method**
+    # Class Method
     @classmethod
     def changeChargerType(cls):
         cls.charger_type = "B TYPE"
         print("Charger type changed to B TYPE")
 
-    **# Static Method**
+    # Static Method
     @staticmethod
     def info():
         print("This is Laptop class")
-
-**# Object Creation**
+# Object Creation
 hp = Laptop()
 
-**# Calling Instance Method**
+# Calling Instance Method
 hp.setPrice(20000)
 hp.getPrice()
 
-**# Calling Class Method**
+# Calling Class Method
 Laptop.changeChargerType()
 
-**# Accessing Class Variable**
+# Accessing Class Variable
 print("Charger Type:", Laptop.charger_type)
 
-**# Calling Static Method**
+# Calling Static Method
 hp.info()
 
 
 
-**OUTPUT**
+
+OUTPUT:
 
 Price: 20000
 Charger type changed to B TYPE
